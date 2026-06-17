@@ -1,7 +1,5 @@
 # BidEngine AI — AI-Powered Bid Response & Tender Intelligence Platform
 
-![BidEngine AI Banner](assets/banner.png)
-
 ## Live Demo
 
 **Live Project:** https://bidengine.netlify.app/
@@ -12,7 +10,7 @@
 
 **BidEngine AI** is an AI-powered bid response and tender intelligence platform built to help businesses review, analyse, and respond to RFPs, RFQs, tenders, and proposal documents more efficiently.
 
-The system allows users to upload tender documents, extract important requirements, check compliance, match company capabilities, generate AI-assisted proposal responses, review historical bid performance, and calculate win probability.
+The platform helps users upload tender documents, extract important requirements, check compliance, match company capabilities, generate AI-assisted proposal responses, review historical bid performance, and calculate win probability.
 
 This project is designed for companies, consultants, proposal teams, and bid managers who want to save time, improve proposal quality, and make smarter GO / NO-GO bidding decisions.
 
@@ -20,9 +18,9 @@ This project is designed for companies, consultants, proposal teams, and bid man
 
 ## Project Purpose
 
-Preparing tender responses manually can take a lot of time. Teams often need to read long documents, identify mandatory requirements, check eligibility, prepare compliance responses, review past performance, and decide whether the bid is worth pursuing.
+Tender response preparation is often time-consuming and repetitive. Teams usually need to read long documents manually, identify mandatory requirements, prepare compliance responses, collect evidence, review past performance, and decide whether the bid is worth pursuing.
 
-**BidEngine AI** helps simplify this process by turning tender documents into structured insights, AI-generated responses, compliance checks, and bid decision support.
+**BidEngine AI** simplifies this process by turning tender documents into structured insights, compliance checks, AI-generated responses, and bid decision support.
 
 ---
 
