@@ -1,155 +1,352 @@
 # BidEngine AI — AI-Powered Bid Response & Tender Intelligence Platform
 
-**BidEngine AI** is a professional AI-powered tender and bid response engine designed to help businesses analyse RFPs, RFQs, and tender documents with speed, structure, and evidence-based decision-making.
-
-The platform allows users to upload tender documents, extract key requirements, check compliance against a capability library, generate draft responses, review bid history, and calculate win probability using historical bid data.
+![BidEngine AI Banner](assets/banner.png)
 
 ## Live Demo
 
-[View Live Project](https://bidengine.netlify.app/)
+**Live Project:** https://bidengine.netlify.app/
 
-## Project Overview
+---
 
-BidEngine AI is built for organisations that regularly respond to tenders, RFPs, RFQs, government procurement documents, and enterprise proposals. Instead of manually reviewing long tender documents, the system helps users quickly understand:
+## About BidEngine AI
 
-* What the tender is asking for
-* Which requirements are mandatory
-* Where the bidder is compliant or non-compliant
-* What evidence should be attached
-* What response drafts can be prepared
-* Whether the bid is worth pursuing
-* Estimated win probability based on historical bid data
+**BidEngine AI** is an AI-powered bid response and tender intelligence platform built to help businesses review, analyse, and respond to RFPs, RFQs, tenders, and proposal documents more efficiently.
 
-The goal of this platform is to reduce manual proposal effort, improve submission quality, and support faster GO / NO-GO bid decisions.
+The system allows users to upload tender documents, extract important requirements, check compliance, match company capabilities, generate AI-assisted proposal responses, review historical bid performance, and calculate win probability.
+
+This project is designed for companies, consultants, proposal teams, and bid managers who want to save time, improve proposal quality, and make smarter GO / NO-GO bidding decisions.
+
+---
+
+## Project Purpose
+
+Preparing tender responses manually can take a lot of time. Teams often need to read long documents, identify mandatory requirements, check eligibility, prepare compliance responses, review past performance, and decide whether the bid is worth pursuing.
+
+**BidEngine AI** helps simplify this process by turning tender documents into structured insights, AI-generated responses, compliance checks, and bid decision support.
+
+---
 
 ## Key Features
 
-### RFP / Tender Upload
+### Tender / RFP Upload
 
-Users can upload tender documents and analyse them inside a dedicated workspace. The system supports common document formats including PDF, DOCX, and TXT.
+Users can upload RFP, RFQ, tender, or proposal documents and analyse them inside the platform.
+
+Supported document types include:
+
+* PDF
+* DOCX
+* TXT
+
+---
 
 ### Requirement Extraction
 
-The engine identifies key tender requirements, evaluation points, compliance needs, deliverables, and response areas from uploaded documents.
+The system identifies important tender requirements such as:
 
-### Compliance Checking
+* Mandatory requirements
+* Eligibility conditions
+* Technical requirements
+* Compliance points
+* Evaluation criteria
+* Submission needs
+* Evidence requirements
+* Proposal questions
 
-BidEngine AI checks extracted requirements against a structured capability library and highlights whether the bidder has matching experience, certifications, or supporting evidence.
+---
 
-### Capability Matching
+### Compliance Analysis
 
-The platform uses a capability library containing past project experience, certifications, domains, client types, contract values, and delivery history to match tender requirements with relevant company strengths.
+BidEngine AI checks extracted requirements against a structured capability library and highlights whether the bidder has matching experience, certifications, project history, or supporting evidence.
 
-### AI Draft Response Generation
+The compliance analysis helps users understand:
 
-The system can generate professional response drafts for tender questions and proposal sections. This helps proposal teams prepare structured, client-ready answers faster.
+* Which requirements are covered
+* Which requirements may need attention
+* Which evidence should be attached
+* Which gaps may affect the proposal
+* Whether the bid is strong enough to proceed
+
+---
+
+### Capability Library Matching
+
+The platform includes a structured capability library that stores company strengths, past projects, certifications, client types, contract values, and delivery experience.
+
+This helps match tender requirements with relevant company capabilities.
+
+Example capability areas include:
+
+* ISO 27001 information security
+* CMMI software delivery
+* PMP project management
+* Cloud infrastructure
+* Network deployment
+* Government ERP/API integration
+* Healthcare systems
+* Financial consulting
+* Media campaign execution
+* Construction and engineering
+* Cybersecurity
+* SLA reporting
+* Training and capacity building
+
+---
+
+### AI-Powered Response Drafting
+
+The platform can generate professional AI-assisted proposal responses for tender questions and requirement sections.
+
+This helps proposal teams prepare:
+
+* Technical responses
+* Compliance responses
+* Methodology sections
+* Experience-based answers
+* Bid explanation drafts
+* Client-ready proposal text
+
+---
 
 ### Win Probability Scoring
 
-BidEngine AI uses historical bid data to estimate the probability of winning a tender. It considers factors such as sector, budget, score, compliance percentage, response time, document size, gaps found, and previous bid outcomes.
+BidEngine AI uses historical bid data and scoring factors to estimate the probability of winning a bid.
+
+The system considers factors such as:
+
+* Sector
+* Budget
+* Bid score
+* Compliance percentage
+* Response time
+* Document pages
+* Gaps found
+* Historical outcomes
+* Previous win/loss patterns
+
+This helps users make better GO / NO-GO decisions before investing time and resources into a tender.
+
+---
 
 ### Bid History Dashboard
 
-The platform includes a bid history dashboard where users can explore past bids by sector, outcome, score, budget, compliance, and win rate.
+The platform includes bid history analysis to help users review previous bid performance.
+
+Users can analyse:
+
+* Past bid outcomes
+* Win/loss data
+* Sector performance
+* Budget trends
+* Compliance performance
+* Score comparison
+* Bid managers
+* Submission history
+
+---
+
+### Evaluation Criteria Taxonomy
+
+BidEngine AI includes a structured evaluation criteria taxonomy for different sectors. This helps the system understand how tenders may be evaluated when the document does not provide a clear evaluation table.
+
+Example sectors include:
+
+* IT Services
+* Network Infrastructure
+* Media / Communications
+* Finance
+* Healthcare
+* Construction
+* Energy
+* Logistics
+
+---
 
 ### GO / NO-GO Decision Support
 
-The system supports bid managers by giving a clearer decision view before investing time and resources into a tender.
+The system supports bid managers with decision-making by showing:
 
-### Export Support
+* Compliance strength
+* Capability match
+* Missing gaps
+* Risk factors
+* Win probability
+* Tender attractiveness
+* Bid readiness
 
-The platform includes export functionality for preparing proposal-related outputs and structured bid documentation.
+This helps companies decide whether to proceed with a bid or avoid wasting effort on weak opportunities.
 
-## Built With
+---
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+### RFP Upload & Analysis
+
+![RFP Upload](assets/upload-rfp.png)
+
+### Compliance Analysis
+
+![Compliance Analysis](assets/compliance-analysis.png)
+
+### Win Probability
+
+![Win Probability](assets/win-probability.png)
+
+### AI Response Drafting
+
+![AI Response Drafting](assets/ai-response.png)
+
+---
+
+## Technology Stack
+
+This project is built using modern frontend and AI technologies.
+
+### Frontend
 
 * React
 * Vite
 * JavaScript
+* HTML
+* CSS
+* Responsive UI design
+* Modern dashboard layout
+
+### AI Integration
+
 * OpenRouter API
 * DeepSeek model integration
-* AI-powered tender analysis
-* Custom compliance scoring logic
-* Capability library matching
+* AI-assisted response generation
+* Prompt-based tender analysis
+
+### Data & Logic
+
 * Historical bid dataset
-* Netlify deployment
-
-## AI & Data Components
-
-BidEngine AI uses multiple structured intelligence layers:
-
-* Historical bid outcome dataset
 * Capability library
 * Evaluation criteria taxonomy
-* Compliance checking logic
-* Requirement extraction
-* AI-based response drafting
-* Win probability scoring
-* Sector-based bid analytics
+* Compliance matching logic
+* Win probability calculation
+* Sector-based bid intelligence
+
+### Deployment
+
+* Netlify
+
+---
+
+## Current Prototype Includes
 
 The current prototype includes:
 
 * 120 historical bid records
 * 50 capability records
 * 22 evaluation criteria
-* Multi-sector bid analysis
-* AI-assisted proposal drafting
+* Multi-sector tender analysis
+* AI-assisted response drafting
+* Compliance checking
+* Capability matching
+* Win probability scoring
+* PDF, DOCX, and TXT upload support
+* Dashboard-based user interface
+* Export-ready proposal support
+
+---
 
 ## Use Cases
 
-BidEngine AI can be used by:
+BidEngine AI can be useful for:
 
 * Bid management teams
 * Proposal writers
 * Tender response departments
-* Consulting firms
+* Procurement consultants
 * IT service providers
 * Construction companies
 * Healthcare solution providers
+* Telecom and network vendors
 * Government contractors
-* Procurement support teams
+* Consulting firms
 * Startups responding to enterprise RFPs
+* Companies preparing public-sector proposals
 
-## Why This Project Matters
+---
 
-Tender response work is often time-consuming, repetitive, and highly dependent on manual review. BidEngine AI helps teams save time by turning tender documents into structured analysis, compliance checks, draft responses, and decision support.
+## Business Benefits
 
-It helps organisations improve:
+BidEngine AI helps organisations:
 
-* Proposal quality
-* Compliance accuracy
-* Bid/no-bid decisions
-* Response speed
-* Evidence preparation
-* Team productivity
-* Tender review consistency
+* Save time in tender review
+* Improve proposal quality
+* Reduce manual document reading
+* Identify compliance gaps early
+* Generate draft responses faster
+* Improve bid/no-bid decision-making
+* Organise capability evidence
+* Review historical bid performance
+* Increase tender response efficiency
+* Support more professional proposal preparation
 
-## Availability
+---
 
-This is a live demo showcase. The source code is private and not publicly available.
+## Why BidEngine AI?
 
-If you are interested in purchasing this project, requesting a customized version, or adapting it for your own business workflow, please contact:
+Tender response work is often repetitive, manual, and time-sensitive. BidEngine AI helps transform long tender documents into structured, useful, and actionable bid intelligence.
+
+Instead of starting from a blank document, users can quickly understand what the tender requires, what evidence is available, what gaps exist, and how strong the bid may be.
+
+---
+
+## Source Code Notice
+
+The source code for this project is private and is not publicly available in this repository.
+
+This repository is created only as a professional showcase for the live project, features, screenshots, and business availability.
+
+---
+
+## Purchase & Customization
+
+This project is available for purchase and customization.
+
+If you are interested in buying this project, customizing it for your business, or adapting it for your own tender/bid workflow, please contact:
 
 **Email:** [itxzaino2002@gmail.com](mailto:itxzaino2002@gmail.com)
 
+---
+
 ## Customization Options
 
-This project can be customized according to business requirements, including:
+BidEngine AI can be customized according to your business requirements.
+
+Available customization options include:
 
 * Company-specific capability library
 * Custom bid scoring model
-* RFP upload workflow
+* Custom RFP upload workflow
 * Sector-specific evaluation criteria
-* Proposal response templates
+* Custom proposal response templates
 * Branding and UI customization
 * Admin dashboard
 * Client login system
 * Backend database integration
+* User management
 * API integration
 * PDF / Word export formatting
 * Multi-user team access
 * Custom AI model configuration
+* Private deployment
+* Business-specific compliance rules
+* Custom reporting dashboard
 
-## Contact
+---
+
+## Availability
+
+This is a live demo version. A full customized version can be developed based on business needs.
 
 For purchase, customization, or business inquiries:
 
@@ -157,4 +354,26 @@ For purchase, customization, or business inquiries:
 
 ---
 
-© BidEngine AI. All rights reserved. Source code is private and available only upon business discussion.
+## Project Status
+
+Live demo is available.
+
+**Demo Link:** https://bidengine.netlify.app/
+
+---
+
+## Contact
+
+For business inquiries, purchase requests, or customization:
+
+**Email:** [itxzaino2002@gmail.com](mailto:itxzaino2002@gmail.com)
+
+---
+
+## Disclaimer
+
+This project is a professional AI-powered prototype and showcase. The live demo is provided for demonstration purposes. Final business implementation can be customized according to client requirements, workflows, data, and branding.
+
+---
+
+© BidEngine AI. All rights reserved.
