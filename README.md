@@ -176,30 +176,6 @@ This helps companies decide whether to proceed with a bid or avoid wasting effor
 
 ---
 
-## Screenshots
-
-### Dashboard
-
-![Dashboard](assets/dashboard.png)
-
-### RFP Upload & Analysis
-
-![RFP Upload](assets/upload-rfp.png)
-
-### Compliance Analysis
-
-![Compliance Analysis](assets/compliance-analysis.png)
-
-### Win Probability
-
-![Win Probability](assets/win-probability.png)
-
-### AI Response Drafting
-
-![AI Response Drafting](assets/ai-response.png)
-
----
-
 ## Technology Stack
 
 This project is built using modern frontend and AI technologies.
